@@ -1,0 +1,3 @@
+ID,Claim,Number,Source
+C7.1,"Largest uniform emission (fraction of IEEE 1547 limits) meeting EN 50160 at every order, SCR 10 / SCR 5",0.55 / 0.28 (SCR 20: full request is fine),results/sweep_hil404_points.csv (sweep 'master')
+C7.2,"SCR 5, one order at a time at its IEEE 1547 limit: orders over EN 50160, and the worst","7, 11, 13, 17, 19, 23, 25; the 19th at 3.6×",results/sweep_hil404_orders.csv (sweep 'single')

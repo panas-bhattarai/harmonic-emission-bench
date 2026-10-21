@@ -1,0 +1,13 @@
+available devices: [{'product_name': 'HIL404', 'configuration': 2, 'device_id': 0, 'serial_number': '(removed)', 'device_name': '(removed)', 'fw_release': 132777749, 'ip_address': '(removed)', 'busy': False, 'interface': 'Ethernet', 'last_activity': '0', 'used_by': '', 'user_ip': '', 'calib_date': '2023-12-08'}]
+setup connected: True
+analog outputs set
+stiff   THD_V 0.00 %  THD_I 6.82 %  worst order error 0.46 % of request  (sim 5.0 s, wall 5 s)
+SCR 20  THD_V 3.58 %  THD_I 6.82 %  worst order error 0.13 % of request  (sim 9.7 s, wall 10 s)
+SCR 10  THD_V 7.08 %  THD_I 6.82 %  worst order error 0.20 % of request  (sim 14.3 s, wall 14 s)
+SCR 5   THD_V 13.53 %  THD_I 6.72 %  worst order error 27.58 % of request  (sim 18.9 s, wall 19 s)
+  grid  THD_V_pct  THD_I_pct  worst_order_error_pct     f_pll  sim_time
+ stiff   0.000003   6.817294               0.456546 49.999840  5.044832
+SCR 20   3.579458   6.817325               0.134246 49.995110  9.651227
+SCR 10   7.080404   6.817016               0.204002 50.006851 14.300267
+ SCR 5  13.531214   6.716088              27.576653 50.016445 18.923919
+EXIT 0

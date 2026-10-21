@@ -1,0 +1,4 @@
+ID,Claim,Number,Source
+C4.1,Controller tuned for a stiff grid without damping is unstable as soon as the grid has impedance,unstable from SCR 60 down,"analysis, hil_bench/pr_design.py"
+C4.2,"Used design (one tuning + active damping, Kc = 2 Ω) is stable from stiff to SCR 3; slowest mode at SCR 5 decays at",2.5 1/s (time constant 0.40 s),"analysis, hil_bench/pr_design.py; ran stably on HIL404 on all grids"
+C4.3,"With active damping, the largest phase change of any order between stiff grid and SCR 4",93° (so the middle value is at most 46° off),"analysis, hil_bench/pr_design.py"

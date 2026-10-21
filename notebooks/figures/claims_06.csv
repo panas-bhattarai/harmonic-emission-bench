@@ -1,0 +1,5 @@
+ID,Claim,Number,Source
+C6.1,"SCR 5, full request (HIL404): error at the end of the hold at 850 / 750 / 725 V",0.26 % / 0.23 % / 0.31 %,results/saturation_hold_hil404_SCR5_*.csv
+C6.2,"SCR 5, full request, 700 V: steady error (does not recover)",12.5 %,results/saturation_hold_hil404_SCR5_700.csv
+C6.3,"SCR 5, full request, 650 V: error range and largest THD_V over the hold","41-214 %, THD_V up to 20.7 %",results/saturation_hold_hil404_SCR5_650.csv
+C6.4,"SCR 10 at 650 V, full request (HIL404): error at the end of the hold",0.28 %,results/saturation_hold_hil404_SCR10_650.csv

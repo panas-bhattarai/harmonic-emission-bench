@@ -1,0 +1,40 @@
+design,SCR,Zgrid_pu,decay_per_s
+"tuned for a stiff grid, no damping",inf,0.0,33.010902927638575
+"tuned for a stiff grid, no damping",60.0,0.016666666666666666,-22.946705374305896
+"tuned for a stiff grid, no damping",40.0,0.025,-38.950613194858164
+"tuned for a stiff grid, no damping",30.0,0.03333333333333333,-30.948088195704358
+"tuned for a stiff grid, no damping",20.0,0.05,-76.79280671300863
+"tuned for a stiff grid, no damping",15.0,0.06666666666666667,-108.158827370871
+"tuned for a stiff grid, no damping",12.0,0.08333333333333333,-93.81851771983976
+"tuned for a stiff grid, no damping",10.0,0.1,-70.02555817315299
+"tuned for a stiff grid, no damping",8.0,0.125,-49.242123477434575
+"tuned for a stiff grid, no damping",6.0,0.16666666666666666,-60.802242330394854
+"tuned for a stiff grid, no damping",5.0,0.2,-53.097147515540165
+"tuned for a stiff grid, no damping",4.0,0.25,-40.54888616885899
+"tuned for a stiff grid, no damping",3.0,0.3333333333333333,-27.443350941727584
+"one tuning for all grids, no damping",inf,0.0,-23.88700810345628
+"one tuning for all grids, no damping",60.0,0.016666666666666666,-83.09560242631748
+"one tuning for all grids, no damping",40.0,0.025,-121.14175908007192
+"one tuning for all grids, no damping",30.0,0.03333333333333333,-139.88790659801944
+"one tuning for all grids, no damping",20.0,0.05,-141.33989392298486
+"one tuning for all grids, no damping",15.0,0.06666666666666667,-126.53265043185483
+"one tuning for all grids, no damping",12.0,0.08333333333333333,-130.96165126923353
+"one tuning for all grids, no damping",10.0,0.1,-114.6490394878923
+"one tuning for all grids, no damping",8.0,0.125,-71.45356830838412
+"one tuning for all grids, no damping",6.0,0.16666666666666666,-44.39059771777802
+"one tuning for all grids, no damping",5.0,0.2,-15.922285874416966
+"one tuning for all grids, no damping",4.0,0.25,-0.5530484036686442
+"one tuning for all grids, no damping",3.0,0.3333333333333333,-0.1950973507245324
+one tuning for all grids + active damping (used),inf,0.0,23.950097858282327
+one tuning for all grids + active damping (used),60.0,0.016666666666666666,18.858541305998088
+one tuning for all grids + active damping (used),40.0,0.025,15.50588706616527
+one tuning for all grids + active damping (used),30.0,0.03333333333333333,13.152045818269055
+one tuning for all grids + active damping (used),20.0,0.05,9.486305901651352
+one tuning for all grids + active damping (used),15.0,0.06666666666666667,7.3443937132029165
+one tuning for all grids + active damping (used),12.0,0.08333333333333333,5.98563866007901
+one tuning for all grids + active damping (used),10.0,0.1,5.020819555585824
+one tuning for all grids + active damping (used),8.0,0.125,4.027877734449932
+one tuning for all grids + active damping (used),6.0,0.16666666666666666,3.027295137886328
+one tuning for all grids + active damping (used),5.0,0.2,2.5247266657808467
+one tuning for all grids + active damping (used),4.0,0.25,2.0209826973316707
+one tuning for all grids + active damping (used),3.0,0.3333333333333333,1.5163389712417408

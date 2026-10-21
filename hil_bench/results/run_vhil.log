@@ -1,0 +1,10 @@
+stiff   THD_V 0.00 %  THD_I 6.82 %  worst order error 0.42 % of request  (sim 3.3 s, wall 55 s)
+SCR 20  THD_V 3.58 %  THD_I 6.82 %  worst order error 0.11 % of request  (sim 6.1 s, wall 103 s)
+SCR 10  THD_V 7.08 %  THD_I 6.82 %  worst order error 0.26 % of request  (sim 8.9 s, wall 148 s)
+SCR 5   THD_V 13.50 %  THD_I 6.70 %  worst order error 28.65 % of request  (sim 11.7 s, wall 194 s)
+  grid  THD_V_pct  THD_I_pct  worst_order_error_pct     f_pll  sim_time
+ stiff   0.000001   6.817342               0.422828 49.999989  3.289356
+SCR 20   3.578256   6.817300               0.112107 50.007977  6.091296
+SCR 10   7.079192   6.816982               0.263985 49.978680  8.893039
+ SCR 5  13.499051   6.704190              28.647211 50.009144 11.692207
+EXIT 0

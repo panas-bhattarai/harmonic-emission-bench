@@ -1,0 +1,6 @@
+ID,Claim,Number,Source
+C2.1,"HIL404, full request, worst order error on stiff / SCR 20 / SCR 10 / SCR 5 (1000 V)",0.46 % / 0.13 % / 0.20 % / 0.26 %,"results/bench_hil404.csv, scenarios_hil404.csv (F)"
+C2.2,Scenarios A-G: worst error on the HIL404 except C (fixed resonators off-nominal),0.26 % (C: 95 %),results/scenarios_summary_hil404.csv
+C2.3,"Largest difference between panel meter and offline THD_V (HIL404, A-G)",0.06 percentage points,results/scenarios_summary_hil404.csv
+C2.4,"Over 82 sweep points, largest THD_V difference HIL404 vs Virtual HIL",0.24 percentage points,"results/sweep_vhil_points.csv, sweep_hil404_points.csv"
+C2.5,Points with worst error below 1 % on both platforms,63 of 82,same files; the rest are SCR 5 / low-DC points still recovering after a step (notebook 06) or fixed resonators off 50 Hz (05)

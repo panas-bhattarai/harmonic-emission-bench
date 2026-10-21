@@ -1,0 +1,5 @@
+ID,Claim,Number,Source
+C3.1,"Single order at a time (HIL404, SCR 10 and 5): PCC voltage / current equals the grid impedance within",0.4 %,results/sweep_hil404_orders.csv (sweep 'single')
+C3.2,"Current at regulated orders that were not requested (single-order sweep, HIL404)",at most 0.0025 % of rated,results/sweep_hil404_points.csv
+C3.3,"Settled grids (stiff, SCR 20, SCR 10): even orders / triplens / above 5 kHz, at most",0.10 / 0.13 / 0.07 % of rated,results/bench_hil404_wave_*.csv
+C3.4,"Worst order error with 0-3 % background 5th/7th (HIL404, SCR 10)",0.20-0.21 %,results/sweep_hil404_points.csv (sweep 'bg')

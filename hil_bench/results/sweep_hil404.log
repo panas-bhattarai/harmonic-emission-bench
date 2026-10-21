@@ -1,0 +1,84 @@
+setup already connected
+82 points on the HIL404
+  1/82 master grid=stiff, master=0.25      THD_V   0.00  THD_I  1.70  worst err   0.62 % (h5)  EN50160 x0.00 (h19)  wall    5 s
+  2/82 master grid=stiff, master=0.5       THD_V   0.00  THD_I  3.41  worst err   0.49 % (h47)  EN50160 x0.00 (h17)  wall    9 s
+  3/82 master grid=stiff, master=0.733     THD_V   0.00  THD_I  5.00  worst err   0.47 % (h47)  EN50160 x0.00 (h19)  wall   13 s
+  4/82 master grid=stiff, master=1.0       THD_V   0.00  THD_I  6.82  worst err   0.46 % (h47)  EN50160 x0.00 (h19)  wall   17 s
+  5/82 master grid=SCR 20, master=0.25     THD_V   0.89  THD_I  1.70  worst err   0.26 % (h43)  EN50160 x0.22 (h19)  wall   22 s
+  6/82 master grid=SCR 20, master=0.5      THD_V   1.79  THD_I  3.41  worst err   0.22 % (h43)  EN50160 x0.45 (h19)  wall   26 s
+  7/82 master grid=SCR 20, master=0.733    THD_V   2.62  THD_I  5.00  worst err   0.18 % (h43)  EN50160 x0.66 (h19)  wall   30 s
+  8/82 master grid=SCR 20, master=1.0      THD_V   3.58  THD_I  6.82  worst err   0.13 % (h43)  EN50160 x0.90 (h19)  wall   34 s
+  9/82 master grid=SCR 10, master=0.25     THD_V   1.77  THD_I  1.70  worst err   0.18 % (h43)  EN50160 x0.45 (h19)  wall   39 s
+ 10/82 master grid=SCR 10, master=0.5      THD_V   3.54  THD_I  3.41  worst err   0.13 % (h49)  EN50160 x0.90 (h19)  wall   43 s
+ 11/82 master grid=SCR 10, master=0.733    THD_V   5.19  THD_I  5.00  worst err   0.16 % (h49)  EN50160 x1.32 (h19)  wall   47 s
+ 12/82 master grid=SCR 10, master=1.0      THD_V   7.08  THD_I  6.82  worst err   0.21 % (h49)  EN50160 x1.80 (h19)  wall   51 s
+ 13/82 master grid=SCR 5, master=0.25      THD_V   3.49  THD_I  1.70  worst err   0.19 % (h49)  EN50160 x0.90 (h19)  wall   55 s
+ 14/82 master grid=SCR 5, master=0.5       THD_V   6.98  THD_I  3.41  worst err   0.29 % (h49)  EN50160 x1.80 (h19)  wall   59 s
+ 15/82 master grid=SCR 5, master=0.733     THD_V  10.17  THD_I  4.98  worst err   5.22 % (h37)  EN50160 x2.64 (h19)  wall   63 s
+ 16/82 master grid=SCR 5, master=1.0       THD_V  13.53  THD_I  6.71  worst err  27.52 % (h37)  EN50160 x3.57 (h19)  wall   67 s
+ 17/82 vdc    grid=SCR 10, vdc=650.0       THD_V   7.13  THD_I  6.85  worst err   8.96 % (h37)  EN50160 x1.80 (h19)  wall   72 s
+ 18/82 vdc    grid=SCR 10, vdc=750.0       THD_V   7.08  THD_I  6.82  worst err   0.21 % (h49)  EN50160 x1.80 (h19)  wall   77 s
+ 19/82 vdc    grid=SCR 10, vdc=850.0       THD_V   7.08  THD_I  6.82  worst err   0.13 % (h49)  EN50160 x1.80 (h19)  wall   82 s
+ 20/82 vdc    grid=SCR 10, vdc=1000.0      THD_V   7.08  THD_I  6.82  worst err   0.06 % (h47)  EN50160 x1.80 (h19)  wall   87 s
+ 21/82 vdc    grid=SCR 5, vdc=650.0        THD_V  12.73  THD_I  6.54  worst err  59.68 % (h37)  EN50160 x3.51 (h19)  wall   92 s
+ 22/82 vdc    grid=SCR 5, vdc=750.0        THD_V  14.13  THD_I  6.84  worst err  12.23 % (h35)  EN50160 x3.66 (h19)  wall   97 s
+ 23/82 vdc    grid=SCR 5, vdc=850.0        THD_V  14.64  THD_I  6.98  worst err  39.72 % (h37)  EN50160 x3.58 (h19)  wall  102 s
+ 24/82 vdc    grid=SCR 5, vdc=1000.0       THD_V  13.97  THD_I  6.82  worst err   1.00 % (h37)  EN50160 x3.61 (h19)  wall  107 s
+ 25/82 freq   grid=SCR 20, f=49.0, adapt=True THD_V   3.51  THD_I  6.82  worst err   0.12 % (h43)  EN50160 x0.88 (h19)  wall  112 s
+ 26/82 freq   grid=SCR 20, f=49.25, adapt=True THD_V   3.52  THD_I  6.82  worst err   0.12 % (h43)  EN50160 x0.89 (h19)  wall  117 s
+ 27/82 freq   grid=SCR 20, f=49.5, adapt=True THD_V   3.54  THD_I  6.82  worst err   0.12 % (h43)  EN50160 x0.89 (h19)  wall  122 s
+ 28/82 freq   grid=SCR 20, f=49.75, adapt=True THD_V   3.56  THD_I  6.82  worst err   0.12 % (h43)  EN50160 x0.90 (h19)  wall  127 s
+ 29/82 freq   grid=SCR 20, f=50.0, adapt=True THD_V   3.58  THD_I  6.82  worst err   0.13 % (h43)  EN50160 x0.90 (h19)  wall  132 s
+ 30/82 freq   grid=SCR 20, f=50.25, adapt=True THD_V   3.60  THD_I  6.82  worst err   0.13 % (h47)  EN50160 x0.91 (h19)  wall  137 s
+ 31/82 freq   grid=SCR 20, f=50.5, adapt=True THD_V   3.62  THD_I  6.82  worst err   0.15 % (h43)  EN50160 x0.91 (h19)  wall  142 s
+ 32/82 freq   grid=SCR 20, f=50.75, adapt=True THD_V   3.63  THD_I  6.82  worst err   0.15 % (h43)  EN50160 x0.92 (h19)  wall  147 s
+ 33/82 freq   grid=SCR 20, f=51.0, adapt=True THD_V   3.65  THD_I  6.82  worst err   0.17 % (h47)  EN50160 x0.92 (h19)  wall  152 s
+ 34/82 freq   grid=SCR 20, f=49.0, adapt=False THD_V   1.69  THD_I  2.93  worst err  97.03 % (h49)  EN50160 x0.57 (h19)  wall  157 s
+ 35/82 freq   grid=SCR 20, f=49.25, adapt=False THD_V   1.80  THD_I  3.51  worst err  96.96 % (h49)  EN50160 x0.58 (h19)  wall  162 s
+ 36/82 freq   grid=SCR 20, f=49.5, adapt=False THD_V   2.06  THD_I  4.41  worst err  95.38 % (h49)  EN50160 x0.61 (h19)  wall  167 s
+ 37/82 freq   grid=SCR 20, f=49.75, adapt=False THD_V   2.60  THD_I  5.58  worst err  89.19 % (h49)  EN50160 x0.73 (h19)  wall  172 s
+ 38/82 freq   grid=SCR 20, f=50.0, adapt=False THD_V   3.58  THD_I  6.82  worst err   0.13 % (h43)  EN50160 x0.90 (h19)  wall  177 s
+ 39/82 freq   grid=SCR 20, f=50.25, adapt=False THD_V   3.24  THD_I  7.39  worst err  95.58 % (h35)  EN50160 x0.87 (h19)  wall  182 s
+ 40/82 freq   grid=SCR 20, f=50.5, adapt=False THD_V   3.23  THD_I  7.66  worst err  94.16 % (h41)  EN50160 x0.79 (h19)  wall  187 s
+ 41/82 freq   grid=SCR 20, f=50.75, adapt=False THD_V   3.19  THD_I  7.74  worst err  95.77 % (h47)  EN50160 x0.74 (h19)  wall  192 s
+ 42/82 freq   grid=SCR 20, f=51.0, adapt=False THD_V   3.15  THD_I  7.72  worst err  96.84 % (h47)  EN50160 x0.71 (h19)  wall  197 s
+ 43/82 single grid=SCR 10, only=5          THD_V   1.86  THD_I  4.00  worst err   0.04 % (h5)  EN50160 x0.32 (h5)  wall  202 s
+ 44/82 single grid=SCR 10, only=7          THD_V   2.60  THD_I  4.00  worst err   0.01 % (h7)  EN50160 x0.53 (h7)  wall  206 s
+ 45/82 single grid=SCR 10, only=11         THD_V   2.04  THD_I  2.00  worst err   0.00 % (h11)  EN50160 x0.60 (h11)  wall  210 s
+ 46/82 single grid=SCR 10, only=13         THD_V   2.41  THD_I  2.00  worst err   0.00 % (h13)  EN50160 x0.82 (h13)  wall  214 s
+ 47/82 single grid=SCR 10, only=17         THD_V   2.37  THD_I  1.50  worst err   0.00 % (h17)  EN50160 x1.21 (h17)  wall  218 s
+ 48/82 single grid=SCR 10, only=19         THD_V   2.64  THD_I  1.50  worst err   0.00 % (h19)  EN50160 x1.80 (h19)  wall  221 s
+ 49/82 single grid=SCR 10, only=23         THD_V   1.28  THD_I  0.60  worst err   0.01 % (h23)  EN50160 x0.87 (h23)  wall  225 s
+ 50/82 single grid=SCR 10, only=25         THD_V   1.39  THD_I  0.60  worst err   0.02 % (h25)  EN50160 x0.95 (h25)  wall  229 s
+ 51/82 single grid=SCR 10, only=29         THD_V   1.61  THD_I  0.60  worst err   0.03 % (h29)  EN50160 x0.00 (h23)  wall  233 s
+ 52/82 single grid=SCR 10, only=31         THD_V   1.72  THD_I  0.60  worst err   0.04 % (h31)  EN50160 x0.00 (h23)  wall  237 s
+ 53/82 single grid=SCR 10, only=35         THD_V   0.97  THD_I  0.30  worst err   0.07 % (h35)  EN50160 x0.00 (h19)  wall  241 s
+ 54/82 single grid=SCR 10, only=37         THD_V   1.03  THD_I  0.30  worst err   0.06 % (h37)  EN50160 x0.00 (h19)  wall  245 s
+ 55/82 single grid=SCR 10, only=41         THD_V   1.14  THD_I  0.30  worst err   0.09 % (h41)  EN50160 x0.00 (h19)  wall  249 s
+ 56/82 single grid=SCR 10, only=43         THD_V   1.19  THD_I  0.30  worst err   0.11 % (h43)  EN50160 x0.00 (h25)  wall  253 s
+ 57/82 single grid=SCR 10, only=47         THD_V   1.30  THD_I  0.30  worst err   0.11 % (h47)  EN50160 x0.00 (h19)  wall  257 s
+ 58/82 single grid=SCR 10, only=49         THD_V   1.37  THD_I  0.30  worst err   0.13 % (h49)  EN50160 x0.00 (h19)  wall  261 s
+ 59/82 single grid=SCR 5, only=5           THD_V   3.66  THD_I  4.00  worst err   0.03 % (h5)  EN50160 x0.63 (h5)  wall  266 s
+ 60/82 single grid=SCR 5, only=7           THD_V   5.12  THD_I  4.00  worst err   0.02 % (h7)  EN50160 x1.06 (h7)  wall  270 s
+ 61/82 single grid=SCR 5, only=11          THD_V   4.02  THD_I  2.00  worst err   0.01 % (h11)  EN50160 x1.19 (h11)  wall  274 s
+ 62/82 single grid=SCR 5, only=13          THD_V   4.75  THD_I  2.00  worst err   0.01 % (h13)  EN50160 x1.64 (h13)  wall  278 s
+ 63/82 single grid=SCR 5, only=17          THD_V   4.66  THD_I  1.50  worst err   0.01 % (h17)  EN50160 x2.42 (h17)  wall  282 s
+ 64/82 single grid=SCR 5, only=19          THD_V   5.21  THD_I  1.50  worst err   0.01 % (h19)  EN50160 x3.61 (h19)  wall  286 s
+ 65/82 single grid=SCR 5, only=23          THD_V   2.52  THD_I  0.60  worst err   0.02 % (h23)  EN50160 x1.75 (h23)  wall  290 s
+ 66/82 single grid=SCR 5, only=25          THD_V   2.74  THD_I  0.60  worst err   0.03 % (h25)  EN50160 x1.90 (h25)  wall  294 s
+ 67/82 single grid=SCR 5, only=29          THD_V   3.18  THD_I  0.60  worst err   0.04 % (h29)  EN50160 x0.00 (h23)  wall  298 s
+ 68/82 single grid=SCR 5, only=31          THD_V   3.39  THD_I  0.60  worst err   0.09 % (h31)  EN50160 x0.00 (h25)  wall  302 s
+ 69/82 single grid=SCR 5, only=35          THD_V   1.92  THD_I  0.30  worst err   0.28 % (h35)  EN50160 x0.00 (h17)  wall  307 s
+ 70/82 single grid=SCR 5, only=37          THD_V   2.03  THD_I  0.30  worst err   0.13 % (h37)  EN50160 x0.00 (h19)  wall  312 s
+ 71/82 single grid=SCR 5, only=41          THD_V   2.24  THD_I  0.30  worst err   0.15 % (h41)  EN50160 x0.00 (h23)  wall  316 s
+ 72/82 single grid=SCR 5, only=43          THD_V   2.36  THD_I  0.30  worst err   0.20 % (h43)  EN50160 x0.00 (h19)  wall  321 s
+ 73/82 single grid=SCR 5, only=47          THD_V   2.57  THD_I  0.30  worst err   0.25 % (h47)  EN50160 x0.00 (h25)  wall  325 s
+ 74/82 single grid=SCR 5, only=49          THD_V   2.68  THD_I  0.30  worst err   0.46 % (h49)  EN50160 x0.00 (h25)  wall  330 s
+ 75/82 bg     grid=SCR 10, bg=0.0          THD_V   7.08  THD_I  6.82  worst err   0.20 % (h49)  EN50160 x1.80 (h19)  wall  335 s
+ 76/82 bg     grid=SCR 10, bg=1.0          THD_V   6.80  THD_I  6.82  worst err   0.20 % (h49)  EN50160 x1.80 (h19)  wall  339 s
+ 77/82 bg     grid=SCR 10, bg=2.0          THD_V   6.80  THD_I  6.82  worst err   0.21 % (h49)  EN50160 x1.80 (h19)  wall  343 s
+ 78/82 bg     grid=SCR 10, bg=3.0          THD_V   7.07  THD_I  6.82  worst err   0.20 % (h49)  EN50160 x1.80 (h19)  wall  347 s
+ 79/82 bg     grid=SCR 5, bg=0.0           THD_V  13.56  THD_I  6.71  worst err  25.18 % (h37)  EN50160 x3.59 (h19)  wall  352 s
+ 80/82 bg     grid=SCR 5, bg=1.0           THD_V  13.34  THD_I  6.80  worst err   8.62 % (h37)  EN50160 x3.62 (h19)  wall  357 s
+ 81/82 bg     grid=SCR 5, bg=2.0           THD_V  13.02  THD_I  6.81  worst err   2.39 % (h37)  EN50160 x3.61 (h19)  wall  361 s
+ 82/82 bg     grid=SCR 5, bg=3.0           THD_V  12.80  THD_I  6.82  worst err   0.63 % (h37)  EN50160 x3.61 (h19)  wall  365 s

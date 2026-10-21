@@ -1,0 +1,22 @@
+panel: 37 widgets, init code 28 lines
+signals the panel reads: 41, missing in the model: none
+A SCR 20, 50 Hz                                f_pll 50.008  worst order error   0.12 %  THD_V 3.58 %  (meter 3.60)  bar I5 100.0 % of limit
+<font color=orange>[WARNING] Unsupported number of samples! It should be an even number in the range [256, 9142857]</font>
+B 49.5 Hz, adaptive resonators on              f_pll 49.500  worst order error  92.91 %  THD_V 1.44 %  (meter 3.59)  bar I5 99.9 % of limit
+<font color=orange>[WARNING] Unsupported number of samples! It should be an even number in the range [256, 9142857]</font>
+C 49.5 Hz, adaptive resonators OFF             f_pll 49.507  worst order error  92.91 %  THD_V 1.44 %  (meter 2.07)  bar I5 75.7 % of limit
+<font color=orange>[WARNING] Unsupported number of samples! It should be an even number in the range [256, 9142857]</font>
+D 50.5 Hz, adaptive on                         f_pll 50.506  worst order error  95.30 %  THD_V 1.41 %  (meter 3.62)  bar I5 100.0 % of limit
+E 50 Hz, background 5th + 7th at 2 %           f_pll 49.994  worst order error   0.12 %  THD_V 4.11 %  (meter 4.13)  bar I5 100.0 % of limit
+F SCR 5, DC 1000 V                             f_pll 49.997  worst order error   0.31 %  THD_V 13.96 %  (meter 14.00)  bar I5 99.8 % of limit
+G SCR 5, DC 1000 V, master 0.5, h13 off        f_pll 49.997  worst order error   0.15 %  THD_V 6.56 %  (meter 6.58)  bar I5 49.9 % of limit
+wall 450 s
+scenario                                  what  f_grid     f_pll  worst_order_error_pct  THD_V_pct  THD_I_pct  meter_THDv  meter_V5  offline_V5  bar_I5_pct_of_limit   bar_V5  n_bars  sim_time
+       A                         SCR 20, 50 Hz    50.0 50.007904               0.115512   3.579102   6.817315    3.596193  0.956193    0.950213            99.958628 0.956206      16  3.998555
+       B       49.5 Hz, adaptive resonators on    49.5 49.499657              92.907026   1.439210   3.357924    3.591804  0.954359    0.929794            99.932176 0.944296      16  7.744787
+       C      49.5 Hz, adaptive resonators OFF    49.5 49.506561              92.907026   1.439210   3.357924    2.066077  0.718508    0.929794            75.681835 0.715881      16 11.499206
+       D                  50.5 Hz, adaptive on    50.5 50.506149              95.297673   1.409240   3.032803    3.623862  0.963700    1.218210           100.001025 0.963975      16 15.249071
+       E    50 Hz, background 5th + 7th at 2 %    50.0 49.994267               0.123765   4.110207   6.817212    4.128098  1.927026    1.916460            99.975854 1.927019      16 19.239541
+       F                      SCR 5, DC 1000 V    50.0 49.997303               0.305749  13.956105   6.816629   13.997576  3.796001    3.800550            99.796170 3.796347      16 24.224656
+       G SCR 5, DC 1000 V, master 0.5, h13 off    50.0 49.996956               0.154609   6.563012   3.258237    6.578483  1.905067    1.899784            49.921986 1.905139      16 28.211338
+EXIT 0

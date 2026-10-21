@@ -1,0 +1,5 @@
+ID,Claim,Number,Source
+C1.1,LCL filter resonance on a stiff grid,1472 Hz,hil_bench/params.py
+C1.2,All 16 orders at their IEEE 1547 limit add up to a total distortion (TRD) of,6.82 % (IEEE 1547 allows 5 %),IEEE Std 1547-2018 Table 26; computed here
+C1.3,Largest uniform master scale that keeps TRD at 5 %,0.733,computed here
+C1.4,Grid inductance moves the LCL resonance from 1472 Hz (stiff) down to,"1070 Hz (SCR 20) ... 853 Hz (SCR 5), orders 17-21",computed from hil_bench/params.py

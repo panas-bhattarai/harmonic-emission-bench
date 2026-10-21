@@ -1,0 +1,15 @@
+# kept locally
+references/
+paper/
+# Typhoon build output
+hil_bench/model/*Target files*/
+hil_bench/sil_build/
+__pycache__/
+.ipynb_checkpoints/
+# kept locally
+tools/
+# kept locally
+hil_bench/WORKLOG.md
+hil_bench/results/*_quick*
+hil_bench/results/*_run1.csv
+hil_bench/results/*.png

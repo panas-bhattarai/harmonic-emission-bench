@@ -1,0 +1,4 @@
+ID,Claim,Number,Source
+C5.1,"Adaptive resonators, 49-51 Hz (HIL404): worst order error at most",0.17 %,results/sweep_hil404_points.csv (sweep 'freq')
+C5.2,"Fixed resonators, any frequency 0.25 Hz or more off 50 Hz (HIL404): worst order error",89-97 %,same file
+C5.3,Fixed resonators: delivered total harmonic current ranges from (49 Hz) to (51 Hz),2.9 % to 7.7 % (asked 6.82 %),same file

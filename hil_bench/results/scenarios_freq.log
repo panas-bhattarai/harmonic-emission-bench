@@ -1,0 +1,14 @@
+panel: 37 widgets, init code 28 lines
+Starting from installation...
+signals the panel reads: 41, missing in the model: none
+A SCR 20, 50 Hz                                f_pll 50.002  worst order error   0.11 %  THD_V 3.58 %  (meter 3.60)  bar I5 100.0 % of limit
+B 49.5 Hz, adaptive resonators on              f_pll 49.484  worst order error   0.13 %  THD_V 3.54 %  (meter 3.55)  bar I5 99.9 % of limit
+C 49.5 Hz, adaptive resonators OFF             f_pll 49.493  worst order error  95.39 %  THD_V 2.06 %  (meter 2.07)  bar I5 75.7 % of limit
+D 50.5 Hz, adaptive on                         f_pll 50.505  worst order error   0.10 %  THD_V 3.61 %  (meter 3.67)  bar I5 100.0 % of limit
+wall 263 s
+scenario                             what  f_grid     f_pll  worst_order_error_pct  THD_V_pct  THD_I_pct  meter_THDv  meter_V5  offline_V5  bar_I5_pct_of_limit   bar_V5  n_bars  sim_time
+       A                    SCR 20, 50 Hz    50.0 50.002193               0.113208   3.578376   6.817319    3.596193  0.956175    0.950121            99.958628 0.956206      16  4.010117
+       B  49.5 Hz, adaptive resonators on    49.5 49.484264               0.131045   3.543023   6.816964    3.551357  0.944230    0.940135            99.878317 0.944404      16  8.030149
+       C 49.5 Hz, adaptive resonators OFF    49.5 49.492832              95.385921   2.058884   4.405909    2.065577  0.718482    0.712015            75.668454 0.718407      16 12.054244
+       D             50.5 Hz, adaptive on    50.5 50.504818               0.103756   3.614716   6.817735    3.666317  0.963635    0.959361           100.009692 0.963673      16 16.058668
+EXIT 0
