@@ -28,7 +28,7 @@ This folder is the model and the scripts that produced the data in `results/`.
 ## Results files
 
 `results/` holds what the scripts wrote: `*_vhil*` from Virtual HIL (4 Oct 2026), `*_hil404*` from the
-HIL404 at IOE Pulchowk (5 Oct 2026), as CSV plus the run logs. `scenarios_freq.csv` is the Virtual HIL
+HIL404 at Pulchowk Campus, Institute of Engineering, Tribhuvan University (5 Oct 2026), as CSV plus the run logs. `scenarios_freq.csv` is the Virtual HIL
 re-run of scenarios A-D with the least-squares analysis.
 
 ## Run

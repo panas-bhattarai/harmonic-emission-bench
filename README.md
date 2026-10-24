@@ -6,7 +6,7 @@ that source within limits.
 
 This repository is an **open reference emitter**: one 100 kVA PV inverter on Typhoon HIL that injects
 each harmonic order at a level you choose, up to the IEEE 1547 limit. It was run in Virtual HIL and on a
-real **HIL404** at IOE Pulchowk Campus (5 Oct 2026). The notebooks show how well it delivers what it is
+real **HIL404** at Pulchowk Campus, Institute of Engineering, Tribhuvan University (5 Oct 2026). The notebooks show how well it delivers what it is
 asked, whether it really acts as an ideal current source, and the three conditions it needs to do so.
 
 ![The emitter delivers each harmonic current as asked](notebooks/figures/00_main_result.png)
@@ -89,8 +89,8 @@ P. Bhattarai, "A reference harmonic emitter on Typhoon HIL," 2026. A manuscript 
 
 ## Acknowledgement
 
-The HIL404 tests were run in the laboratory of the Department of Electrical Engineering, IOE Pulchowk
-Campus, Tribhuvan University, Nepal. Parts of the code and text were drafted with the help of an AI
+The HIL404 tests were run in the laboratory of the Department of Electrical Engineering, Pulchowk
+Campus, Institute of Engineering, Tribhuvan University, Nepal. Parts of the code and text were drafted with the help of an AI
 assistant (Claude, Anthropic) and checked by the author against the data.
 
 ## Licence
